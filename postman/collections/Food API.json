@@ -48,7 +48,7 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": "text",
+					"_postman_previewlanguage": "json",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -59,7 +59,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "{\r\n    \"Foods\"[\r\n        \"0\"[\r\n            \"Name\" = \"Lumpia\"\r\n        ]\r\n        \"1\"[\r\n            \"Name\" = \"Jalangkote\"\r\n        ]\r\n        \"2\"[\r\n            \"Name\" = \"Nasi\"\r\n        ]\r\n        \"3\"[\r\n            \"Name\" = \"Ayam\"\r\n        ]\r\n    ]\r\n}"
+					"body": "{\r\n    \"foods\":{\r\n        \"0\":{\r\n            \"name\":\"lumpia\"\r\n        },\r\n        \"1\":{\r\n            \"name\":\"jalangkote\"\r\n        },\r\n        \"2\":{\r\n            \"name\":\"nasi\"\r\n        }\r\n    }\r\n}"
 				}
 			]
 		}
